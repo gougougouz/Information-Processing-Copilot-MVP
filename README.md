@@ -34,18 +34,13 @@ streamlit run app.py
   - OPENAI_EMBEDDING_MODEL（默认：text-embedding-3-small）
 
 ## 使用流程
-1. 启动应用并打开浏览器界面。
-2. 在侧边栏输入 API Key 和 Base URL。
-3. （可选）上传 PDF 以启用研报 RAG。
-4. 在对话输入框提问。
-5. 有检索内容时答案会带来源引用。
+1. 在侧边栏输入 API Key 和 Base URL。
+2. （可选）上传 PDF 以启用研报 RAG。
+3. 在对话输入框提问。
+4. 有检索内容时答案会带来源引用。
 
-## 截图 / 录屏
-请将关键截图或录屏说明放在 docs/screenshots/ 下。
-建议文件名：
-- docs/screenshots/ui-home.png
-- docs/screenshots/rag-answer.png
-- docs/screenshots/summary-card.png
+## 截图
+关键截图说明放在 docs/运行截图/ 下。
 
 ## 关键文件
 - app.py：Streamlit 界面、会话状态、聊天流程、日志
